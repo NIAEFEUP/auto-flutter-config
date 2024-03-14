@@ -1,0 +1,23 @@
+{
+  "name": "auto-flutter-config",
+  "version": "1.0.0",
+  "description": "A script that auto installs and configures flutter",
+  "main": "build/index.js",
+  "scripts": {
+    "build": "bun build src/index.ts --compile --outfile auto-flutter-config",
+    "dev": "bun run src/index.ts"
+  },
+  "type": "module",
+  "author": "NIAEFEUP",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/bun": "^1.0.8",
+    "@types/inquirer": "^9.0.7",
+    "@types/node": "^20.11.27",
+    "typescript": "^5.4.2"
+  },
+  "dependencies": {
+    "fs-extra": "^11.2.0",
+    "inquirer": "^9.2.16"
+  }
+}
